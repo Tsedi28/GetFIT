@@ -1,0 +1,71 @@
+{{!-- new workout form --}}
+
+<div class="workoutBody" id="workoutBody">
+        <h1>Good Job!</h1>
+          <div class="container" id="addWorkout">
+            <h1>Let's add a New workout!</h1>
+            <!-- Form -->
+            <!-- override html validation - add novalidate attribute to form  -->
+            <form id="workoutForm" >
+            <!--Title-->
+              <div class="form-group">
+                <label for="user_name">What is your user name?</label>
+                <input type="text" id="user_name"placeholder="Ken" name="user_name"
+                  required minlength="3" maxlength="100">
+              </div>
+              <br/>
+            <!--  -->
+            <div class="form-group">
+                <label for="title">What day of the Week did you workout?</label>
+                <input type="text" id="title" placeholder="Monday" name="title"
+                  required minlength="3" maxlength="100">
+            </div>
+             <br/>
+        
+              <!--Duration -->
+              <div class="form-group">
+                <label for="duration">How long did you workout for?</label>
+                <input type="text" id="duration" placeholder="One hour" name="duration"
+                required >
+              </div>
+              <br/>
+        
+              <!--Intensity -->
+              <div class="form-group">
+                <label for="intensity">What was the intensity of your workout?<br/>(Ex. High, Medium, Low)</label>
+                <input type="text" id="intensity" placeholder="High" name="intensity"
+                required>
+              </div>
+              <br/>
+        
+              <!-- Outcome -->
+            <div class="form-group">
+                <label for="outcome">How did you feel after your workout?<br/>( ex. Energized, Good, Tired)</label>
+                <input type="text" id="outcome" placeholder="Energized" name="outcome"
+                required >
+            </div>
+            <br/>
+            
+            <button type="submit" id="addWorkoutBtn">Add New Workout</button>
+        </form>
+
+            <!-- Success/Error Message -->
+    <div class="workout-message-container">
+        <h3 id="workout-message"></h3>
+    </div>
+
+
+<script src="/js/newWorkout.js"></script>
+
+
+ </div>
+
+ <style>
+  body{
+    background-color: #2e6d68;
+  }
+.workoutBody{
+margin-left: 15% ;
+background-color: #dee6e6;
+}
+</style>
