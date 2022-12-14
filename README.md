@@ -1,30 +1,22 @@
-GetFIT 
+# GetFIT 
 
-Github : https://github.com/
+Github : https://github.com/CalvinDT/GetFIT
 Deployed app : http://
 
-Description:
+## Description:
 
-This application is a fitness-tracking tool designed to provide users with the ability to login to the app after registering as a new user, creating a secure personal profile to enter their demographics.
-
-The user will be taken to a main profile page that will display their profile information and an interactive water intake feature to assist the user in tracking daily water intake.
-
-Users have the ability to add new workouts to be saved.
-
-The application also has a community blog page for users to post accomplishments and encouraging things for other users and find useful tips for wellness.
+GetFIT is a daily exercise tracking application. After registering, The user will create a secure personal profile while entering their stats: height, weight, age. Next, The user will be taken to a main profile page that displays their profile information. Also listed on the their profile page is a water intake feature to assist the user in tracking their daily water intake. Users will have the ability to add new workouts to be saved and followed at their discretion.Our application also has a community social page for users to post their accomplishments and encouraging words for other users.
 
 
-Installation:
-From the command-line run:
+## Installation:
+From the command-line run: npm start
 
-npm start
-Then, enter:
+Then enter: node server.js
 
-node server.js
-From your browser window, type or click the following link: https://restful--fitness.herokuapp.com/login
+From your browser window, type or click the following link:http://localhost:3001/
 
 
-Technology:
+## Technology Used:
 HTML/CSS
 Javascript
 Node.js
@@ -36,7 +28,7 @@ MySQL
 Sequelize
 Heroku
 
-Contributors:
+## Contributors:
 Calvin Turner, David Silva and Tsedenia Bogale ©2022 All Rights Reserved.
 
 
