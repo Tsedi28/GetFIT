@@ -1,4 +1,4 @@
-//Redirect users to the home page
+//redirect users to the home page
 const goHome = async () => {
     document.location.replace('/');  
   };
