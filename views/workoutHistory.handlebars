@@ -1,4 +1,79 @@
+<div class="communityBody" id="communityBody"> 
 
+  <section class = "container">
+<div class="communityHeader container" id="communityHeader">
+  <h1 class="community-title"> Workout History</h1>
+
+  <img src="/img/GetFIT2.png" class="img-fluid" alt="Responsive image">
+
+    <h2 class= "introduction" "jumbltron-fluid"> Hello and welcome to the GetFIT Workouts! <br/>
+      What type of Workout did you do today? <br/>
+      
+    </h2> 
+
+
+<h3> </h3>
+</div>
+<form id="form">
+  <div class="col-8" id="blogBody">
+    <div class="note" id="note">
+    <input
+      class="blogTitle"
+      id = "title"
+      placeholder="Enter Date Here"
+      maxlength="3000"
+      type="text"
+    />
+
+    <textarea class="note-textarea textarea" id="textarea" placeholder="Enter Text Here"></textarea>
+    <button class="btn btn-primary" id="submitBlog" type="submit">submit</button>
+  </div>
+  </div>
+  </form>
+
+  <div class="blog-message-container">
+        <h3 id="blog-message"></h3>
+    </div>
+
+  <section class="container flex-row justify-center notes">
+    {{#each blogs as |blog|}}
+    <div class="bg-dark border-primary mb-3" style="">
+   <h2>{{blog.title}}</h2> 
+    <h3>{{blog.textarea}} </h3>
+    </div>
+    {{/each}}
+  </section>
+  <script src="/js/workoutHistory.js"></script>
+  </section>
+
+  </div>
+ <style>
+  body{
+    background-color: rgb(255, 106, 0);
+  }
+
+  img{
+    width: 100%;
+  }
+
+  .communityHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* rounded corners */
+    border-radius: 10px;
+    
+  }
+
+  {{!-- {{.notes{ --}}
+    {{!-- display: flex; --}}
+    {{!-- flex-direction: column; --}}
+    {{!-- align-items: center; --}}
+    /* rounded corners */
+    {{!-- border-radius: 10px; --}}
+  } --}}
+
+</style>
 <div class = "container workoutHistory" id="workoutHistory">
     <h1 class="workoutHistory"> Workout History</h1>
 
