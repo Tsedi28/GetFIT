@@ -24,7 +24,7 @@ You can add a blog post on the GetFIT Community page, to share information with 
 
 Back on the homepage, you can also add your water daily water intake by clicking one of the small cups located below the large cup, to indicate each 8 ounce glass of water consumed, and see the amount and percentage remaining to meet recommended daily goal of approximately 2 liters per day. You can double-click each cup to remove 8 ounces, if necessary or click a cup further ahead if you need to add multiple cups at one time.
 
-![water-intake]()
+![water-intake](screenshots/Screenshot%20Capture%20-%202022-12-15%20-%2016-20-53.png)
 
 
 ---
