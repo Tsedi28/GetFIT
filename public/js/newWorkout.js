@@ -53,3 +53,9 @@ const addNewWorkout = async (e) => {
 }};
 
 document.getElementById('addWorkoutBtn').addEventListener('click', addNewWorkout);
+
+const goHome = async () => {
+    document.location.replace('/');  
+  };
+
+document.getElementById('home').addEventListener('click', goHome);
