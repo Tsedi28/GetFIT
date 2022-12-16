@@ -7,10 +7,38 @@
   <img src="/img/GetFIT2.png" class="img-fluid" alt="Responsive image">
 
     <h2 class= "introduction" "jumbltron-fluid"> Hello and welcome to the GetFIT Workouts! <br/>
-      What type of Workout did you do today? <br/>
+       <br/>
       
     </h2> 
+</style>
+  <div class = "container workoutHistory" id="workoutHistory">
+    <h1 class="workoutHistory">What type of Workout did you do today?  </h1>
 
+    <section class="flex-row justify-center workouts">
+      {{#each Workouts as |workout|}}
+          <h2>{{workout.title}}</h2> 
+          <h3>{{workout.duration}}</h3>
+          <h3>{{workout.intensity}}</h3>
+          <h3>{{workout.outcome}} </h3>
+      {{/each}}
+    </section>
+    
+</div>
+
+<div class="homeBtn-Container" id="homeBtn-Container">
+              <button type="submit" id="home">Home</button>
+            </div>
+
+<script src="/js/workoutHistory.js"></script>
+
+ <style>
+  body
+    background-color: rgb(255, 106, 0);
+  
+.workoutHistory h1
+  text-align: center;
+
+</style>
 
 <h3> </h3>
 </div>
@@ -71,26 +99,12 @@
     {{!-- align-items: center; --}}
     /* rounded corners */
     {{!-- border-radius: 10px; --}}
-  } --}}
-
-</style>
-<div class = "container workoutHistory" id="workoutHistory">
-    <h1 class="workoutHistory"> Workout History</h1>
-
-    <section class="flex-row justify-center workouts">
-      {{#each Workouts as |workout|}}
-          <h2>{{workout.title}}</h2> 
-          <h3>{{workout.duration}}</h3>
-          <h3>{{workout.intensity}}</h3>
-          <h3>{{workout.outcome}} </h3>
-      {{/each}}
-    </section>
-    
+  
 </div>
 
 <div class="homeBtn-Container" id="homeBtn-Container">
-  <button type="submit" id="home">Home</button>
-</div>
+              <button type="submit" id="home">Home</button>
+            </div>
 
 <script src="/js/workoutHistory.js"></script>
 
@@ -98,7 +112,7 @@
   body{
     background-color: rgb(255, 106, 0);
   }
-.workoutHistory h1{
+.workoutHistory h1
   text-align: center;
-}
+
 </style>
