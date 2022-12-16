@@ -42,14 +42,23 @@ http://localhost:3001/
 
 ## Technology Used:
 HTML/CSS
+
 Javascript
+
 Node.js
+
 Express.js
+
 NPM
+
 Handlebars.js
+
 Bcrypt
+
 MySQL
+
 Sequelize
+
 Heroku
 
 ## Contributors:
