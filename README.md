@@ -1,7 +1,9 @@
 # GetFIT 
 
 Github : https://github.com/CalvinDT/GetFIT
-Deployed app : http://
+Deployed app :
+
+https://getfitapplication.herokuapp.com/
 
 ## Description:
 
