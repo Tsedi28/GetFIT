@@ -1,6 +1,7 @@
 # GetFIT 
 
 Github : https://github.com/CalvinDT/GetFIT
+
 Deployed app :
 
 https://getfitapplication.herokuapp.com/
